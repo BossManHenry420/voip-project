@@ -22,15 +22,15 @@ body {
     margin: 0;
   }
   
-  span-1 {
+  .gold {
       color: #D4AF37
   }
 
-  span-2 {
+  .silver {
       color: #B6B6B4
   }
 
-  span-3{
+  .bronze {
       color: #8C7853
   }
   li {
@@ -94,3 +94,35 @@ body {
     margin: 50px auto 0px auto;
     width: 77%;
   }
+  
+ div.a {
+     text-indent: 195px;
+     display: inline-block;
+     font-family: 'Oxygen', sans-serif;
+     font-size: 16px;
+     font-weight: 300;
+     letter-spacing: 2px;
+ }
+ a:active {
+     color: #88CCF1;
+     background-color: transparent;
+     text-decoration:none;
+ }
+
+ a:hover {
+     color:#88CCF1;
+     background-color:transparent;
+     text-decoration:none;
+ }
+
+ a:visited {
+     color: #88CCF1;
+     background-color:transparent;
+     text-decoration:none;
+ }
+
+ a:link {
+     color: #88CCF1;
+     background-color: transparent;
+     text-decoration: none;
+ }
