@@ -8,7 +8,7 @@ body {
   
   .navigation {
     box-sizing: border-box;
-    background-color: #3587A4;
+    background-color: #0B6496    ;
     overflow: auto;
     padding: 18px 50px;
     position: relative;
@@ -22,8 +22,19 @@ body {
     margin: 0;
   }
   
+  span-1 {
+      color: #D4AF37
+  }
+
+  span-2 {
+      color: #B6B6B4
+  }
+
+  span-3{
+      color: #8C7853
+  }
   li {
-    color: #FFF;
+    color: rgb(255, 255, 255);
     display: inline-block;
     font-family: 'Oxygen', sans-serif;
     font-size: 16px;
@@ -35,7 +46,7 @@ body {
   }
   
   .active {
-    color: #88CCF1;
+    color: #FFFFFF;
   }
   
   /* Table */
